@@ -4,3 +4,10 @@
   width: 280px;
   border-radius: 6px;
 }
+
+.image-box {
+  border: 1px solid green;
+  height: 150px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
