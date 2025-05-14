@@ -5,18 +5,45 @@
     <meta name="description" content="Drag and Drop Javascript Feature" />
     <meta charset="utf-8" />
     <link rel="stylesheet" href="./style.css" />
-    <script></script>
+    <script>
+      function dragstartHandler(ev) {
+        ev.dataTransfer.setData("text", ev.target.id);
+      }
+
+      function dragoverHandler(ev) {
+        ev.preventDefault();
+      }
+
+      function dropHandler(ev) {
+        ev.preventDefault();
+        const data = ev.dataTransfer.getData("text");
+        ev.target.appendChild(document.getElementById("draggable-card"));
+      }
+    </script>
   </head>
   <body>
     <div>
       <h2>Drag_and_Drop with JS</h2>
-      <div class="div1">
-        <div class="main-box" draggable="true">
+      <div
+        class="div1"
+        ondrop="dropHandler(event)"
+        ondragover="dragoverHandler(event)"
+      >
+        <div
+          id="draggable-card"
+          class="main-box"
+          draggable="true"
+          ondragstart="dragstartHandler(event)"
+        >
           <div class="image-box"></div>
           <div class="user-picture"></div>
         </div>
       </div>
-      <div class="div2"></div>
+      <div
+        class="div2"
+        ondrop="dropHandler(event)"
+        ondragover="dragoverHandler(event)"
+      ></div>
     </div>
   </body>
 </html>
