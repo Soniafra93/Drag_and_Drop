@@ -11,3 +11,27 @@
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
 }
+
+.user-picture {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(38, 0, 128);
+  align-self: flex-start;
+  margin: 3px 0 0 3px;
+}
+
+.div1 {
+  border: 1px solid rgb(0, 128, 124);
+  height: 250px;
+  width: 320px;
+  float: left;
+}
+
+.div2 {
+  border: 1px solid rgb(0, 128, 124);
+  height: 250px;
+  width: 320px;
+  float: left;
+  margin-left: 50px;
+}
