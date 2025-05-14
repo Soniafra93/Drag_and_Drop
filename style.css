@@ -35,3 +35,26 @@
   float: left;
   margin-left: 50px;
 }
+
+a {
+  text-align: center;
+  margin: 200px 0 0 50px;
+}
+
+.main {
+  display: flex;
+}
+
+.menu {
+  height: 98vh;
+  width: 18%;
+  border: 1px solid rgba(0, 0, 0, 0.143);
+  border-radius: 5px;
+  margin-top: 0px;
+}
+
+.board {
+  border: 1px solid rgba(206, 58, 58, 0.811);
+  height: 98vh;
+  width: 82%;
+}
