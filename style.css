@@ -58,3 +58,11 @@ a {
   height: 98vh;
   width: 82%;
 }
+
+#card {
+  border: 1px solid red;
+  height: 200px;
+  width: 280px;
+  border-radius: 6px;
+  position: fixed;
+}
