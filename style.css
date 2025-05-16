@@ -41,6 +41,11 @@ a {
   margin: 200px 0 0 50px;
 }
 
+.link_box {
+  display: flex;
+  margin-top: 300px;
+}
+
 .main {
   display: flex;
 }
