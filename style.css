@@ -107,3 +107,110 @@ h5 {
   transition: 0.3s ease-out;
   border: solid 5px #2e2a9d;
 }
+
+/* Carousel */
+
+.carousel-container {
+  height: 98dvh;
+  width: 100dvw;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-slide {
+  display: flex;
+  height: 98dvh;
+  width: 600dvw;
+}
+
+.big_card_1 {
+  background-image: url(../../images/A\ Tailor\ for\ Ladies.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  padding-top: 80dvh;
+  width: 100dvw;
+}
+
+.big_card_2 {
+  background-image: url(../../images/Giulia.jpg);
+  display: flex;
+  padding-top: 80dvh;
+  width: 100dvw;
+  background-size: contain;
+}
+
+.big_card_3 {
+  background-image: url(../../images/girotondo.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  padding-top: 80dvh;
+  width: 100dvw;
+}
+
+.big_card_4 {
+  background-image: url(../../images/Aspettando\ Godot.jpg);
+  background-size: 26%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  padding-top: 80dvh;
+  width: 100dvw;
+}
+
+#prevBtn {
+  position: absolute;
+  top: 92%;
+  right: 8%;
+  z-index: 10;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#nextBtn {
+  position: absolute;
+  top: 92%;
+  right: 5%;
+  z-index: 10;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.description .title {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 42px;
+}
+
+.description p {
+  font-family: "Space Mono", monospace;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.card .info p {
+  height: fit-content;
+  width: fit-content;
+  padding-left: 8dvh;
+  position: absolute;
+}
+
+.card .info .title {
+  top: 74%;
+  font-size: 42px;
+}
+
+.card .info .location {
+  top: 80%;
+  font-size: 38px;
+}
+
+.card .info .plays {
+  top: 44%;
+  font-size: 24px;
+  font-weight: 400;
+}
