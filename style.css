@@ -1,12 +1,33 @@
+/* index.html */
+.drag_box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 22dvh;
+}
+
+#title {
+  font-family: "Oswald", sans-serif;
+  color: #15124c;
+  font-size: 64px;
+  margin: 0;
+}
+
+#subtitle {
+  font-family: "Oswald", sans-serif;
+  color: #2e2a9d;
+  font-size: 18px;
+  letter-spacing: 6px;
+}
+
 .main-box {
-  border: 1px solid red;
+  border: 1px solid #2e2a9d;
   height: 200px;
   width: 280px;
   border-radius: 6px;
 }
 
 .image-box {
-  border: 1px solid green;
+  border: 1px solid #2e2a9d;
   height: 150px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
@@ -22,18 +43,17 @@
 }
 
 .div1 {
-  border: 1px solid rgb(0, 128, 124);
+  border: 1px solid #2e2a9d;
+  border-radius: 4px;
   height: 250px;
   width: 320px;
-  float: left;
 }
 
 .div2 {
-  border: 1px solid rgb(0, 128, 124);
+  border: 1px solid #2e2a9d;
+  border-radius: 4px;
   height: 250px;
   width: 320px;
-  float: left;
-  margin-left: 50px;
 }
 
 a {
