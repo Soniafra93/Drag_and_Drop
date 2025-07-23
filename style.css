@@ -24,10 +24,14 @@
   height: 200px;
   width: 280px;
   border-radius: 6px;
+  cursor: pointer;
 }
 
 .image-box {
-  border: 1px solid #2e2a9d;
+  background-image: url(./images/butterfly.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 150px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
@@ -40,18 +44,32 @@
   border: 1px solid rgb(38, 0, 128);
   align-self: flex-start;
   margin: 3px 0 0 3px;
+  background-image: url(./images/avatar.jpg);
+  background-size: contain;
+}
+
+.info {
+  display: flex;
+}
+
+#drag-me {
+  font-family: "Oswald", sans-serif;
+  color: #2e2a9d;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 1dvw;
 }
 
 .div1 {
   border: 1px solid #2e2a9d;
-  border-radius: 4px;
+  border-radius: 6px;
   height: 250px;
   width: 320px;
 }
 
 .div2 {
   border: 1px solid #2e2a9d;
-  border-radius: 4px;
+  border-radius: 6px;
   height: 250px;
   width: 320px;
 }
